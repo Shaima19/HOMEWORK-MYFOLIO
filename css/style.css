@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+/* *COMMON CSS */
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+align-center {
+    align-items: center;
+}
+/* *NAVBAR STARTS HERE */
+nav {
+    background-color: #329898;
+}
+nav .logo {
+    width: 40%;
+    margin: auto;
+}
+nav .menu {
+    width: 60%;
+    text-align: right;
+}
+nav .menu ul li {
+    display: inline-block;
+}
+nav .menu ul li a {
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 25px;
+    display: block;
+}
+/* *BANNER STARTS HERE */
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-color: rgba(10, 10, 10, 0.555);
+    background-blend-mode: multiply;
+    height: 725px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner .container {
+    height: 100%;
+}
+#banner .row{
+    height: 100%;
+}
+    
